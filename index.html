@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O DEVTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="content1">
+            <div class="fundo-bar">
+                <img src="./img/O DEV_TECH.svg" alt="LOGO" class="logo-mobile">
+                <i class="bi bi-list menu-icon" id="list-menu"></i>
+                <i class="bi bi-x-lg menu-icon" id="closed-menu"></i>
+                <header id="nav-bar" class="header">
+                    <nav>
+                        <img src="./img/O DEV_TECH.svg" alt="LOGO">
+                        <ul>
+                            <li><a href="https://guilhermerod-portifolio.netlify.app/" target="_blank" rel="noopener noreferrer">Sobre mim</a></li>
+                            <li><a href="#compartilhe">Compartilhe sua idéia</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <h1>Desenvolvedor de Soluções</h1>
+            <h3>Do seu site ao sistema avançado!</h3>
+            <div class="paragrafo">
+                <div class="texts">
+                    <p>
+                        "Sou Desenvolvedor Full-Stack especializado em C# .NET, React e SQL. Com experiência na criação
+                        de aplicações web modernas e funcionais, transformo ideias em soluções digitais eficientes.
+                        Vamos trabalhar juntos para dar vida ao seu projeto!"
+
+                    </p>
+                    <div class="cta-button">
+                        <a href="https://guilhermerod-portifolio.netlify.app/" target="_blank" rel="noopener noreferrer">Conheça meu Trabalho</a>
+                    </div>
+                </div>
+                <img src="./img/ilustracao-siteODEV.svg" alt="Ilustração">
+            </div>
+        </section>
+
+        <section class="content2">
+            <h2 class="Compartilhe" id="compartilhe">Compartilhe sua idéia</h2>
+            <div class="formulario">
+                <form id="form">
+                    <h2>Preencha os campos</h2>
+                    <label for="to_name">
+                        Nome
+                        <input type="text" placeholder="Informe seu nome" name="to_name" id="to_name" required>
+                    </label>
+
+                    <label for="from_lastname">
+                        Sobrenome
+                        <input type="text" placeholder="Informe seu sobrenome" name="from_lastname" id="from_lastname"
+                            required>
+                    </label>
+
+                    <label for="from_email">
+                        Email
+                        <input type="email" placeholder="Seu Email" name="from_email" id="from_email" required>
+                    </label>
+
+                    <label for="from_phone">
+                        Telefone
+                        <input type="tel" placeholder="Telefone para contato" name="from_phone" id="from_phone"
+                            required>
+                    </label>
+
+                    <label for="message">Conte um pouco da sua ideia</label>
+                    <textarea name="message" id="message"
+                        placeholder="Descreva com boas palavras como é sua ideia"></textarea>
+
+                    <button type="submit" id="button" value="Send Email">Confirmar</button>
+                </form>
+            </div>
+        </section>
+
+        <footer id="contato">
+            <div class="footer-content">
+                <p>&copy; 2025 O-DEVTECH. Todos os direitos reservados.</p>
+                <ul>
+                    <li><a href="https://github.com/gui-rodrgiues2005" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/guilherme-rodrigues-costa-a39a15268/"
+                            target="_blank">LinkedIn</a></li>
+                    <li>
+                        <a href="https://wa.me/5535998726862" target="_blank" rel="noopener noreferrer">
+                            WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="EmailJS.js"></script>
+
+</body>
+
+</html>
