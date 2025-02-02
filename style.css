@@ -134,7 +134,6 @@ h3 {
     height: 60px;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
-    /* Removendo arredondamento */
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -150,19 +149,47 @@ h3 {
 .cta-button:hover {
     background-color: transparent;
     color: #ffffff;
-    /* Contraste com a cor do fundo */
     border-color: #FFFFFF;
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
 }
 
 .cta-button a {
     color: inherit;
-    /* Mantém a cor do texto conforme o botão */
     font-size: 19px;
     text-decoration: none;
     font-weight: bold;
 }
 
+/*SEÇÃO OQUE POSSO AJUDAR*/
+.oque-possoAjudar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.oque-possoAjudar .lista-topicos {
+    margin-top: 40px;
+}
+
+.oque-possoAjudar .lista-topicos .topicos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.oque-possoAjudar .lista-topicos .topicos i {
+    color: #00bfa6;
+    font-size: 35px;
+}
+
+.oque-possoAjudar .lista-topicos .topicos p {
+    font-size: 18px;
+}
+
+/*FIM SEÇÃO DE OQUE POSSO AJUDAR*/
 
 /* Animações */
 @keyframes fadeIn {
@@ -425,13 +452,14 @@ footer ul li a i {
 }
 
 @media (max-width: 1024px) {
-    .header nav{
+    .header nav {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 40px;
         margin-left: 30%;
     }
+
     .fundo-bar {
         display: flex;
         align-items: center;
@@ -442,10 +470,12 @@ footer ul li a i {
         top: 0%;
         z-index: 2025;
     }
+
     .header nav img {
         width: 15vw;
         margin-left: -1px;
     }
+
     #list-menu,
     #closed-menu {
         display: none;
@@ -621,10 +651,45 @@ footer ul li a i {
     textarea::placeholder {
         font-size: 16px;
     }
+
     footer ul {
         flex-direction: column;
         gap: 10px;
     }
+
+
+    /*SEÇÃO OQUE POSSO AJUDAR*/
+    .oque-possoAjudar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .oque-possoAjudar .lista-topicos {
+        margin-top: 40px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos i {
+        color: #00bfa6;
+        font-size: 25px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos p {
+        width: 500px;
+        font-size: 15px;
+    }
+
+    /*FIM SEÇÃO DE OQUE POSSO AJUDAR*/
 }
 
 @media (max-width: 468px) {
@@ -802,14 +867,123 @@ footer ul li a i {
         font-size: 15px;
     }
 
-    
-    footer .footer-content ul li a{
+
+    footer .footer-content ul li a {
         font-size: 15px;
     }
+
+    /*SEÇÃO OQUE POSSO AJUDAR*/
+    .oque-possoAjudar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .oque-possoAjudar .lista-topicos {
+        margin-top: 40px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos i {
+        color: #00bfa6;
+        font-size: 25px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos p {
+        width: 350px;
+        font-size: 15px;
+    }
+
+    /*FIM SEÇÃO OQUE POSSO AJUDAR*/
 }
 
 @media (max-width: 400px) {
     .content1 .paragrafo .texts p {
         width: 320px;
     }
+
+    /*SEÇÃO OQUE POSSO AJUDAR*/
+    .oque-possoAjudar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .oque-possoAjudar .lista-topicos {
+        margin-top: 40px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos i {
+        color: #00bfa6;
+        font-size: 25px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos p {
+        width: 310px;
+        font-size: 15px;
+    }
+
+    /*FIM SEÇÃO OQUE POSSO AJUDAR*/
+}
+
+@media (max-width: 350px) {
+    .content1 .paragrafo .texts p {
+        width: 320px;
+    }
+
+    /*SEÇÃO OQUE POSSO AJUDAR*/
+    .oque-possoAjudar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .oque-possoAjudar h2{
+        font-size: 20px;
+    }
+
+    .oque-possoAjudar .lista-topicos {
+        margin-top: 40px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos i {
+        color: #00bfa6;
+        font-size: 16px;
+    }
+
+    .oque-possoAjudar .lista-topicos .topicos p {
+        width: 310px;
+        font-size: 15px;
+    }
+
+    /*FIM SEÇÃO OQUE POSSO AJUDAR*/
 }
